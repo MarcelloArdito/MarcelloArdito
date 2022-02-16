@@ -1,0 +1,206 @@
+body
+{
+	font-family: sans-serif;
+    background-color: cadetblue;
+}
+
+nav
+{
+	background-color: #000;
+	height: 52px;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	max-width: 1200px;
+}
+
+nav ul ul
+{
+	display: none;
+	position: absolute;
+	top: 100%;
+    left: 0;
+	width: 100%;
+}
+
+nav ul li
+{
+	position: relative;
+	float: left;
+	width: 25%;
+	text-align: center;
+    padding-top: 1%;
+}
+
+nav ul li:hover ul
+{
+	display: block;
+}
+
+nav ul ul li
+{
+    width: 33%;
+}
+
+a
+{
+    color: aqua;
+    text-decoration:aqua;
+}
+
+.sottocontattami
+{
+    font-family: cursive;
+    font-size: 12px;
+    color: rgb(55, 109, 114);
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#testobiografia
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    background-color: lavender;
+    color: black;
+    font-size: 25px;
+}
+
+.linkbiografia
+{
+    font-family: cursive;
+    color: black;
+}
+
+.linea
+{
+    margin-top: 5%;
+    border-color: rgb(145, 131, 54);
+}
+
+#benvenuti
+{
+    color: rgb(145, 131, 54);
+    text-align: center;
+    font-size: 50px;
+}
+
+#imghome
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+#nametaginstagram
+{
+    width: 500px;
+    height: 500px;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.email
+{
+    color: rgb(104, 100, 65);
+}
+
+#titolobiografia
+{
+    text-align: center;
+}
+
+#prova
+{
+    margin-top: 40%;
+}
+
+#centrato
+{
+    height:auto;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#primaColonna
+{
+    background-color: black;
+    float:left;
+    height:450px;
+    width:20%;
+}
+#menuVerticale ul
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+#menuVerticale ul a:link, ul a:visited
+{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color: aqua;
+    text-transform:uppercase;
+}
+
+#menuVerticale ul a:hover 
+{
+    background-color: rgb(104, 100, 65);
+}
+
+#secondacolonnacalcio
+{
+    background-image: url(calcioilmiosito.jpg);
+    float:left;
+    height:450px;
+    width: 80%;
+}
+
+#footer
+{
+    background-color: black;
+    clear:left;
+    height:50px;
+    width:100%;
+}
+
+.testosecondacolonna
+{
+    font-family: -apple-system;
+    color: black;
+    font-size: 200%;
+    padding: 5%;
+    font-weight: bold;
+}
+
+#secondacolonnanuoto
+{
+    background-image: url(nuotoilmiosito.jpg);
+    float:left;
+    height:450px;
+    width: 80%;
+}
+
+#secondacolonnamusica
+{
+    background-image: url(musicailmiosito.jpg);
+    float:left;
+    height:450px;
+    width: 80%;
+}
