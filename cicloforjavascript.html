@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <style type="text/css">
+            form{
+                border-style: solid;
+                border-color: red;
+                margin-right: 94.85%;
+            }
+            body{
+                background-color: rgb(45, 92, 92);
+            }
+            h1{
+                font-size: 300%;
+            }
+        </style>
+        <script type="text/javascript">
+            function stampa10numeri()
+            {
+                for(var i=0; i<10; i++)
+                {
+                    var risultato=i*i;
+                    window.alert("Risultato: " + risultato);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Quadrato primi 10 numeri</h1>
+        <form name="numero">
+            <input type="button" value="esegui!" onclick="stampa10numeri()">
+    </body>
+</html>
