@@ -166,7 +166,7 @@ a:hover
 
 #secondacolonnacalcio
 {
-    background-image: url(calcioilmiosito.jpg);
+    background-color: aquamarine;
     float:left;
     height:450px;
     width: 80%;
@@ -191,7 +191,7 @@ a:hover
 
 #secondacolonnanuoto
 {
-    background-image: url(nuotoilmiosito.jpg);
+    background-color: aquamarine;
     float:left;
     height:450px;
     width: 80%;
@@ -199,7 +199,7 @@ a:hover
 
 #secondacolonnamusica
 {
-    background-image: url(musicailmiosito.jpg);
+    background-color: aquamarine;
     float:left;
     height:450px;
     width: 80%;
