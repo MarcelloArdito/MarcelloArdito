@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function maggiore18(){
+                var numero=document.getElementById('num').value;
+                var image = document.getElementById('immagine');
+                if(numero>18)
+                {
+                    image.src="luna.jpg"
+                }
+                else{
+                    image.src="sole.jpg"
+                }
+            }
+        </script>
+        <style>
+            input{
+                color: rgb(32, 151, 151);
+                background-color: rgb(71, 68, 68);
+                font-size: 400%;
+                margin-top: 5%;
+            }
+            body{
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+            <input id="num" type="text" name="nome" size="30" maxlength="50">
+            <button onclick="maggiore18()">Clicca qui</button>
+        <div>
+            <img id="immagine">
+        </div>
+    </body>
+</html>
